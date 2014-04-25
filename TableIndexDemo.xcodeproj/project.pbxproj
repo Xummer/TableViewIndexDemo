@@ -19,6 +19,10 @@
 		C1BD629B190A5AA9006CA7C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD6283190A5AA9006CA7C0 /* UIKit.framework */; };
 		C1BD62A3190A5AA9006CA7C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1BD62A1190A5AA9006CA7C0 /* InfoPlist.strings */; };
 		C1BD62A5190A5AA9006CA7C0 /* TableIndexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD62A4190A5AA9006CA7C0 /* TableIndexDemoTests.m */; };
+		C1BD62B0190A5BAC006CA7C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD62AF190A5BAC006CA7C0 /* ViewController.m */; };
+		C1BD62B3190A5C81006CA7C0 /* ContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD62B2190A5C81006CA7C0 /* ContactEntity.m */; };
+		C1BD62B6190A5CBB006CA7C0 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD62B5190A5CBB006CA7C0 /* ContactCell.m */; };
+		C1BD62B8190A5EE4006CA7C0 /* 78268.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1BD62B7190A5EE4006CA7C0 /* 78268.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		C1BD62A0190A5AA9006CA7C0 /* TableIndexDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableIndexDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C1BD62A2190A5AA9006CA7C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1BD62A4190A5AA9006CA7C0 /* TableIndexDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableIndexDemoTests.m; sourceTree = "<group>"; };
+		C1BD62AE190A5BAC006CA7C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1BD62AF190A5BAC006CA7C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1BD62B1190A5C81006CA7C0 /* ContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEntity.h; sourceTree = "<group>"; };
+		C1BD62B2190A5C81006CA7C0 /* ContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEntity.m; sourceTree = "<group>"; };
+		C1BD62B4190A5CBB006CA7C0 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		C1BD62B5190A5CBB006CA7C0 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		C1BD62B7190A5EE4006CA7C0 /* 78268.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 78268.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,12 @@
 			children = (
 				C1BD628E190A5AA9006CA7C0 /* AppDelegate.h */,
 				C1BD628F190A5AA9006CA7C0 /* AppDelegate.m */,
+				C1BD62AE190A5BAC006CA7C0 /* ViewController.h */,
+				C1BD62AF190A5BAC006CA7C0 /* ViewController.m */,
+				C1BD62B4190A5CBB006CA7C0 /* ContactCell.h */,
+				C1BD62B5190A5CBB006CA7C0 /* ContactCell.m */,
+				C1BD62B1190A5C81006CA7C0 /* ContactEntity.h */,
+				C1BD62B2190A5C81006CA7C0 /* ContactEntity.m */,
 				C1BD6291190A5AA9006CA7C0 /* Images.xcassets */,
 				C1BD6286190A5AA9006CA7C0 /* Supporting Files */,
 			);
@@ -118,6 +135,7 @@
 		C1BD6286190A5AA9006CA7C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1BD62B7190A5EE4006CA7C0 /* 78268.jpg */,
 				C1BD6287190A5AA9006CA7C0 /* TableIndexDemo-Info.plist */,
 				C1BD6288190A5AA9006CA7C0 /* InfoPlist.strings */,
 				C1BD628B190A5AA9006CA7C0 /* main.m */,
@@ -221,6 +239,7 @@
 			files = (
 				C1BD628A190A5AA9006CA7C0 /* InfoPlist.strings in Resources */,
 				C1BD6292190A5AA9006CA7C0 /* Images.xcassets in Resources */,
+				C1BD62B8190A5EE4006CA7C0 /* 78268.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BD62B6190A5CBB006CA7C0 /* ContactCell.m in Sources */,
+				C1BD62B0190A5BAC006CA7C0 /* ViewController.m in Sources */,
 				C1BD6290190A5AA9006CA7C0 /* AppDelegate.m in Sources */,
 				C1BD628C190A5AA9006CA7C0 /* main.m in Sources */,
+				C1BD62B3190A5C81006CA7C0 /* ContactEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
